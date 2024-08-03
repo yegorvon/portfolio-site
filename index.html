@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yegor von Bartolomei's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <h1 class="name">Yegor von Bartolomei</h1>
+            <div class="contact-info">
+                <p>📞: +123-456-7890</p>
+                <p>✉️: yegor@generic.com</p>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#recommendations">Recommendations</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <img src="download.jpg" alt="Profile Image" class="profile-img">
+        <section id="about">
+            <h2><b>yegor von bartolomei👾</b></h2>
+            <p id="maintext"> Im a 20-year-old aspiring
+                web and full-stack developer. I have
+                strong skills in HTML and
+                CSS and am
+                actively learning JavaScript. Im working on various web projects, including a mobile-friendly website
+                for a construction company in Hebrew, focusing on modern design, dark mode functionality, and responsive
+                navigation bars.
+
+                Im committed to enhancing my skills through courses, with plans to earn certificates in full-stack
+                development and possibly cybersecurity. My goal is to gain experience in major tech companies like
+                Google, Amazon, or OpenAI, and eventually become an independent software or web engineer specializing in
+                cybersecurity and AI/ML.
+
+                I dedicate my free time to programming and personal development, aiming to excel in the tech industry.
+
+            </p>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skills-container">
+                <div class="skill">
+                    <img src="html-1.svg" alt="HTML">
+                    <p>HTML - 1 year</p>
+                </div>
+                <div class="skill">
+                    <img src="css-3.svg" alt="CSS">
+                    <p>CSS - 1 year</p>
+                </div>
+                <div class="skill">
+                    <img src="javascript-1.svg" alt="JavaScript">
+                    <p>JavaScript - 0.3 years</p>
+                </div>
+                <div class="skill">
+                    <img src="nodejs-3.svg" alt="Node.js">
+                    <p>Node.js - 0.2 years</p>
+                </div>
+                <div class="skill">
+                    <img src="python-5.svg" alt="python">
+                    <p>Python- 0.5 years</p>
+                </div>
+
+                <div class="skill">
+                    <img src="rust.svg" alt="rust">
+                    <p>Rust - 0.1 years</p>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>LEGO finder</h3>
+                <p>LEGO set web application that uses HTML, CSS, and JavaScript to create a user-friendly interface. The
+                    application allows users to search for and find information about various LEGO sets. It features a
+                    modern design, responsive layouts, and interactive elements, providing a seamless and engaging user
+                    experience. The project aims to help LEGO enthusiasts easily access detailed information and images
+                    of LEGO sets.</p>
+            </div>
+            <div class="project">
+                <h3>construction site</h3>
+                <p>mobile-friendly website for a construction company in Hebrew. The project utilizes
+                    HTML, CSS, and JavaScript to create a modern and responsive design. Key features include a
+                    navigation bar with three pages, dark mode functionality, and dynamic elements like a footer
+                    displaying the current year. The goal is to provide a visually appealing and user-friendly
+                    experience for the target audience in the Middle East, especially Israel.</p>
+            </div>
+            <div class="project">
+                <h3>portfolio website</h3>
+                <p>portfolio website to showcase my web development projects and skills. Using HTML, CSS,
+                    and JavaScript, the site features a clean, modern design with responsive layouts to ensure it looks
+                    great on all devices. It includes sections for my projects, skills, and contact information, as well
+                    as interactive elements like a dynamic footer and smooth scrolling. The goal is to present my work
+                    in an engaging and professional manner, making it easy for potential employers and clients to view
+                    my capabilities.</p>
+            </div>
+        </section>
+
+        <section id="recommendations">
+            <h2>Recommendations</h2>
+            <div id="recommendations-list">
+                <div class="recommendation">
+                    <strong>John Fort Knight:</strong> Yegor's portfolio website is a testament to his skill and
+                    dedication. The
+                    design is sleek, and the functionality is impressive.
+                </div>
+                <div class="recommendation">
+                    <strong>steve harvey:</strong> I highly recommend Yegor for any web development project. His
+                    attention
+                    to detail and creativity are outstanding.
+                </div>
+                <div class="recommendation">
+                    <strong>Free Code Camp:</strong> Yegor has demonstrated excellent skills in responsive web design,
+                    creating layouts that adapt seamlessly to different devices.
+                </div>
+            </div>
+            <form id="recommendation-form">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" required>
+                <label for="recommendation">Add a recommendation:</label>
+                <textarea id="recommendation" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <a href="#" id="back-to-top" title="Back to top">&#8679;</a>
+    <script src="script.js"></script>
+</body>
+
+</html>
